@@ -17,9 +17,9 @@
     padding: 0.8px;">Photo by Housen Wang in Yanji.</div>
 </div>
 
-I am currently pursuing postgraduate studies in <b><font color=blue>Low-Altitude Economics</font></b> at [The Hong Kong Polytechnic University](https://www.polyu.edu.hk/), having completed my undergraduate degree in Supply Chain Management at [Shenzhen University](https://en.szu.edu.cn/) under the supervision of Associate Professor XTR Kong.
+I am currently pursuing postgraduate studies in <b> Low-Altitude Economics</font></b> at [The Hong Kong Polytechnic University](https://www.polyu.edu.hk/), having completed my undergraduate degree in Supply Chain Management at [Shenzhen University](https://en.szu.edu.cn/).
 
-My primary areas of interest include <b><font color=blue>Blockchain, Operation Research, Supply Chain, Fintech, Chinese History, and Literature</font></b>. I am always eager to engage in thoughtful discussions in these fields:)
+My primary areas of interest include <b> Blockchain, Operation Research, Supply Chain, Fintech, Chinese History, and Literature</font></b>. I am always eager to engage in thoughtful discussions in these fields:)
 
 If you want to do something fun together or establish a deeper connection with me, feel free to check out this **MANUAL**.
 
