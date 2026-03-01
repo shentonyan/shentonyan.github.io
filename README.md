@@ -1,6 +1,6 @@
 <link rel="icon" type="image/x-icon" href="favicon.ico">
 
-<p align="center"> <font size=6 ><b>Sivan(Shentao) Yan</b></font> </p>
+<p align="center"> <font size=6 ><b>Shenton(Shentao) Yan</b></font> </p>
 
 ![Static Badge](https://img.shields.io/badge/Program-Python_Solidity_Markdown-blue) 
 
@@ -17,8 +17,7 @@
     padding: 0.8px;">Photo by Housen Wang in Yanji.</div>
 </div>
 
-
-I am an undergraduate student at [Shenzhen University](https://en.szu.edu.cn/), majoring in Supply Chain Management under the supervision of Associate Professor XTR Kong, and will commence studies in <b><font color=blue>Low-Altitude Economics</font></b> at <b>Hong Kong Polytechnic University</b> in September 2025.
+I am currently pursuing postgraduate studies in <b><font color=blue>Low-Altitude Economics</font></b> at [The Hong Kong Polytechnic University](https://www.polyu.edu.hk/), having completed my undergraduate degree in Supply Chain Management at [Shenzhen University](https://en.szu.edu.cn/) under the supervision of Associate Professor XTR Kong.
 
 My primary areas of interest include <b><font color=blue>Blockchain, Operation Research, Supply Chain, Fintech, Chinese History, and Literature</font></b>. I am always eager to engage in thoughtful discussions in these fields:)
 
@@ -143,7 +142,7 @@ If you want to do something fun together or establish a deeper connection with m
 This template is a modification to [Michael(Chengbo) Yuan](https://michaelyuancb.github.io/)'s website and WeChat Official Account 阿饭的宝藏.
 
 
-<p align="right"> Last Update 03/03/2025 </p>
+<p align="right"> Last Update 03/01/2026 </p>
 ## END 👋🏻👋🏻
 
 <center>©️ 2024 by Sivan Yan</center>
