@@ -1,0 +1,20 @@
+title: Shenton(Shentao) Yan
+description: Personal website and blog of Shenton(Shentao) Yan
+url: "https://shentonyan.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Permalink style for blog posts
+permalink: /blog/:year/:month/:day/:title/
+
+# Exclude from build
+exclude:
+  - README.md
+  - .readthedocs.yaml
+  - Gemfile
+  - Gemfile.lock
