@@ -8,6 +8,13 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
   {% feed_meta %}
   {% seo %}
+  <script>
+    (function() {
+      var theme = localStorage.getItem('theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
 </head>
 <body>
   <header class="site-header">
@@ -16,6 +23,9 @@
       <nav class="site-nav">
         <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
         <a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog' %}class="active"{% endif %}>Blog</a>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+          <span id="theme-icon"></span>
+        </button>
       </nav>
     </div>
   </header>
@@ -29,5 +39,27 @@
       <p>©️ {{ 'now' | date: '%Y' }} by Sivan Yan &nbsp;|&nbsp; Powered by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> &amp; <a href="https://jekyllrb.com/" target="_blank">Jekyll</a></p>
     </div>
   </footer>
+
+  <script>
+    (function() {
+      var btn = document.getElementById('theme-toggle');
+      var icon = document.getElementById('theme-icon');
+
+      function applyTheme(theme) {
+        document.documentElement.setAttribute('data-theme', theme);
+        icon.textContent = theme === 'dark' ? '☀️' : '🌙';
+        localStorage.setItem('theme', theme);
+      }
+
+      // Set correct icon on load
+      var current = document.documentElement.getAttribute('data-theme') || 'light';
+      icon.textContent = current === 'dark' ? '☀️' : '🌙';
+
+      btn.addEventListener('click', function() {
+        var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        applyTheme(next);
+      });
+    })();
+  </script>
 </body>
 </html>
