@@ -7,7 +7,7 @@ title: Home
 
 <p align="center"><font size="6"><b>Shenton(Shentao) Yan</b></font></p>
 
-![Static Badge](https://img.shields.io/badge/Program-Python_Solidity_Markdown-blue)
+![Static Badge](https://img.shields.io/badge/Program-Python_Solidity_R_Matlab-blue)
 
 ## Personal Statement 💁‍♂️
 
