@@ -10,33 +10,35 @@
   {% seo %}
   <script>
     (function() {
-      var theme = localStorage.getItem('theme') ||
-        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      var theme;
+      try { theme = localStorage.getItem('theme'); } catch (_) {}
+      theme = theme || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
       document.documentElement.setAttribute('data-theme', theme);
     })();
   </script>
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
   <header class="site-header">
     <div class="wrapper">
       <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
       <nav class="site-nav">
         <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
         <a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog' %}class="active"{% endif %}>Blog</a>
-        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode" aria-pressed="false" title="Switch to dark mode">
           <span id="theme-icon"></span>
         </button>
       </nav>
     </div>
   </header>
 
-  <main class="page-content wrapper">
+  <main class="page-content wrapper" id="main-content">
     {{ content }}
   </main>
 
   <footer class="site-footer">
     <div class="wrapper">
-      <p>©️ {{ 'now' | date: '%Y' }} by Sivan Yan &nbsp;|&nbsp; Powered by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> &amp; <a href="https://jekyllrb.com/" target="_blank">Jekyll</a></p>
+      <p>©️ {{ 'now' | date: '%Y' }} by Sivan Yan &nbsp;|&nbsp; Powered by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a> &amp; <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a></p>
     </div>
   </footer>
 
@@ -47,13 +49,17 @@
 
       function applyTheme(theme) {
         document.documentElement.setAttribute('data-theme', theme);
-        icon.textContent = theme === 'dark' ? '☀️' : '🌙';
-        localStorage.setItem('theme', theme);
+        var dark = theme === 'dark';
+        icon.textContent = dark ? '☀️' : '🌙';
+        btn.setAttribute('aria-pressed', String(dark));
+        var label = dark ? 'Switch to light mode' : 'Switch to dark mode';
+        btn.setAttribute('aria-label', label);
+        btn.title = label;
+        try { localStorage.setItem('theme', theme); } catch (_) {}
       }
 
-      // Set correct icon on load
       var current = document.documentElement.getAttribute('data-theme') || 'light';
-      icon.textContent = current === 'dark' ? '☀️' : '🌙';
+      applyTheme(current);
 
       btn.addEventListener('click', function() {
         var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';

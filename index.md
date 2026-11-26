@@ -5,17 +5,16 @@ title: Home
 
 <link rel="icon" type="image/x-icon" href="favicon.ico">
 
-<p align="center"><font size="6"><b>Shenton(Shentao) Yan</b></font></p>
+<h1 class="home-title">Shenton(Shentao) Yan</h1>
 
 ![Static Badge](https://img.shields.io/badge/Program-Python_Solidity_R_Matlab-blue)
 
 ## Personal Statement 💁‍♂️
 
-<div style="float: right; width: 29%;">
-  <img style="border-radius: 0.3125em; box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"
+<div class="profile-photo">
+  <img width="1620" height="1080" alt="Shenton Yan in Yanji"
     src="https://cdn.jsdelivr.net/gh/sivanyanst/picgo@main/img/1pfp.jpg">
-  <br>
-  <div style="color: #999; padding: 0.8px;">Photo by Housen Wang in Yanji.</div>
+  <p class="photo-caption">Photo by Housen Wang in Yanji.</p>
 </div>
 
 I am currently pursuing postgraduate studies in <b>Low-Altitude Economics</b> at [The Hong Kong Polytechnic University](https://www.polyu.edu.hk/), having completed my undergraduate degree in Supply Chain Management at [Shenzhen University](https://en.szu.edu.cn/).
@@ -24,15 +23,19 @@ My primary areas of interest include <b>Blockchain, Operation Research, Supply C
 
 If you want to do something fun together or establish a deeper connection with me, feel free to check out this **MANUAL**.
 
-<font size="5">📧</font> <font size="5"><b>Contact Me</b></font>
+## Contact Me
 
-|<smallpopo2003@gmail.com>|<smallpopo200@outlook.com>|
+<a href="mailto:smallpopo2003@gmail.com">smallpopo2003@gmail.com</a> · <a href="mailto:smallpopo200@outlook.com">smallpopo200@outlook.com</a>
 
 ## 01-Academic Essay 📑
 
 > These essays are all in Chinese.
 
-|**Academic Tools**| [Anylogic](www.anylogic.com) |PyCharm|Matlab|SPSS|AmosGraphics|EViews|
+<div class="academic-tools">
+  <strong>Academic Tools:</strong>
+  <a href="https://www.anylogic.com/">Anylogic</a>
+  <span>PyCharm</span><span>Matlab</span><span>SPSS</span><span>AmosGraphics</span><span>EViews</span>
+</div>
 
 * [China New Energy Vehicle Industry Research Report](https://online.fliphtml5.com/byksl/jzoj/)
 * [Developing an Eye Cream for Estée Lauder 2024](https://online.fliphtml5.com/byksl/jhkb/)
@@ -105,15 +108,15 @@ If you want to do something fun together or establish a deeper connection with m
 
 ## 06-Life Gallery 🖼️
 
-<figure class="eighth">
-  <img src="https://cdn.jsdelivr.net/gh/sivanyanst/picgo@main/img/0efce2d2f28e5cd85c5084f9fd59c9f.png" width="100"/>
-  <img src="https://cdn.jsdelivr.net/gh/sivanyanst/picgo@main/img/e6bdc9f0c034daf66628c8c459c951b.jpg" width="100"/>
-  <img src="https://cdn.jsdelivr.net/gh/sivanyanst/picgo@main/img/ce904540c1456d5cf7e1e0e9fd25049.jpg" width="100"/>
-  <img src="https://cdn.jsdelivr.net/gh/sivanyanst/picgo@main/img/ea7ab14fd815b1c1bcb4ed3fb572787.jpg" width="100"/>
-  <img src="https://cdn.jsdelivr.net/gh/sivanyanst/picgo@main/img/f516331ae6c43642101985847542fcd.jpg" width="100"/>
-  <img src="https://cdn.jsdelivr.net/gh/sivanyanst/picgo@main/img/8f88922cb43a9825d2706edef3f5c59.jpg" width="100"/>
-  <img src="https://cdn.jsdelivr.net/gh/sivanyanst/picgo@main/img/3458076bb10dfbdb2ef0123c5deaefe.jpg" width="100"/>
-  <img src="https://cdn.jsdelivr.net/gh/sivanyanst/picgo@main/img/54bdfb9572ae8ae4de69bb5e05fb238.jpg" width="100"/>
+<figure class="life-gallery">
+  <img src="https://cdn.jsdelivr.net/gh/sivanyanst/picgo@main/img/0efce2d2f28e5cd85c5084f9fd59c9f.png" width="100" height="100" loading="lazy" decoding="async" alt="Personal life photo 1">
+  <img src="https://cdn.jsdelivr.net/gh/sivanyanst/picgo@main/img/e6bdc9f0c034daf66628c8c459c951b.jpg" width="100" height="100" loading="lazy" decoding="async" alt="Personal life photo 2">
+  <img src="https://cdn.jsdelivr.net/gh/sivanyanst/picgo@main/img/ce904540c1456d5cf7e1e0e9fd25049.jpg" width="100" height="100" loading="lazy" decoding="async" alt="Personal life photo 3">
+  <img src="https://cdn.jsdelivr.net/gh/sivanyanst/picgo@main/img/ea7ab14fd815b1c1bcb4ed3fb572787.jpg" width="100" height="100" loading="lazy" decoding="async" alt="Personal life photo 4">
+  <img src="https://cdn.jsdelivr.net/gh/sivanyanst/picgo@main/img/f516331ae6c43642101985847542fcd.jpg" width="100" height="100" loading="lazy" decoding="async" alt="Personal life photo 5">
+  <img src="https://cdn.jsdelivr.net/gh/sivanyanst/picgo@main/img/8f88922cb43a9825d2706edef3f5c59.jpg" width="100" height="100" loading="lazy" decoding="async" alt="Personal life photo 6">
+  <img src="https://cdn.jsdelivr.net/gh/sivanyanst/picgo@main/img/3458076bb10dfbdb2ef0123c5deaefe.jpg" width="100" height="100" loading="lazy" decoding="async" alt="Personal life photo 7">
+  <img src="https://cdn.jsdelivr.net/gh/sivanyanst/picgo@main/img/54bdfb9572ae8ae4de69bb5e05fb238.jpg" width="100" height="100" loading="lazy" decoding="async" alt="Personal life photo 8">
 </figure>
 
 > <span style="border-bottom:2px solid #984B4B;">我深怕自己并非美玉，故而不敢加以刻苦琢磨，却又半信自己是块美玉，故而又不肯庸庸碌碌。</span>
